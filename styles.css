@@ -69,7 +69,7 @@
 
 .access-button {
     font-family: montserrat;
-    font-size: 16px;
+    font-size: 24px;
     font-weight: bold;
 
     width: auto;
@@ -82,7 +82,7 @@
 }
 
 .square-text {
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
     font-weight: normal;
 }
@@ -98,11 +98,16 @@
 #banner-content {
     text-align: center;
     width: 100%;
+    font-size: 10px;
+}
+
+#image-div{
+    display: none;
 }
 
 /*** DESKTOP ***/
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
 
     /**  TRES BOTONES **/
 
@@ -172,7 +177,7 @@
 
     .access-button {
         font-family: montserrat;
-        font-size: 16px;
+        font-size: 24px;
         font-weight: bold;
 
         width: auto;
@@ -189,6 +194,23 @@
         text-align: center;
         font-weight: normal;
     }
+
+    /**  BANNER INFERIOR **/
+
+#banner-background {
+    background-image: url("./img/Footer.png");
+    background-size: cover;
+
+}
+
+#banner-content {
+    text-align: center;
+    width: 100%;
+}
+
+#image-div{
+    display: block;
+}
 
 
 
