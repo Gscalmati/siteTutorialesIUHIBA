@@ -69,7 +69,112 @@
 
 .access-button {
     font-family: montserrat;
-    font-size: 24px;
+    font-size: 10px;
+    font-weight: bold;
+
+    width: auto;
+
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 2px 25px;
+}
+
+.square-text {
+    font-size: 8px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/**  BANNER INFERIOR **/
+
+#banner-background {
+    background-size: cover;
+    background-image: url("./img/Footer.png");
+
+}
+
+#banner-content {
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+}
+
+#image-div{
+    display: none;
+}
+
+/*** MOBILE ***/
+
+@media (min-width: 576px){
+    
+
+/**  TRES BOTONES **/
+.square-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square-background {
+    background-color: #ededed;
+    padding: 50px;
+    border: 1px solid #ededed;
+    border-radius: 7px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: auto;
+
+}
+
+#moodle-square {
+    background-image: url("./img/Moodle\ Box.png");
+    background-size: cover;
+}
+
+#google-square {
+    background-image: url("./img/Google\ Box.png");
+    background-size: cover;
+}
+
+#other-square {
+    background-image: url("./img/Other\ Box.png");
+    background-size: cover;
+}
+
+.moodle-icon {
+    color: white;
+    font-family: montserrat;
+    width: 100%;
+    margin: auto;
+    padding: 0px 10%;
+
+}
+
+.google-icon {
+    color: white;
+    font-family: montserrat;
+    width: 100%;
+    margin: auto;
+    padding: 0px 10%;
+}
+
+.other-icon {
+    color: white;
+    font-family: montserrat;
+    width: 100%;
+    margin: auto;
+    padding: 0px 10%;
+}
+
+.access-button {
+    font-family: montserrat;
+    font-size: 16px;
     font-weight: bold;
 
     width: auto;
@@ -89,8 +194,8 @@
 /**  BANNER INFERIOR **/
 
 #banner-background {
-    background-image: url("./img/Footer.png");
     background-size: cover;
+    background-image: url("./img/Footer.png");
 
 }
 
@@ -104,9 +209,11 @@
     display: none;
 }
 
+}
+
 /*** DESKTOP ***/
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
     /**  TRES BOTONES **/
 
