@@ -80,6 +80,11 @@
     padding: 2px 25px;
 }
 
+#link {
+    text-decoration: none !important;
+    color: initial;
+}
+
 .square-text {
     font-size: 8px;
     text-align: center;
