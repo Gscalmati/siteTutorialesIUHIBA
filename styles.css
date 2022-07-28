@@ -111,6 +111,18 @@
     font-weight: normal;
 }
 
+/**  BANNER GUIA **/
+
+#guia-background{
+    background-size: cover;
+    background-image: url("./img/BannerGuia.png");
+}
+
+
+
+
+/*---------------------------------------*/
+
 /*** TABLET ***/
 
 @media (min-width: 576px){
