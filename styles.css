@@ -116,6 +116,7 @@
 #guia-background{
     background-size: cover;
     background-image: url("./img/BannerGuia.png");
+    padding: 2%;
 }
 
 
