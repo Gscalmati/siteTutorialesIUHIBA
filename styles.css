@@ -80,7 +80,7 @@
 #banner-content {
     text-align: center;
     width: 100%;
-    margin: 2%;
+    padding: 5%;
 }
 
 #image-div{
@@ -193,6 +193,7 @@
     text-align: center;
     width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #image-div{
